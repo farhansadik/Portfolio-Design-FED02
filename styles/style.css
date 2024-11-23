@@ -194,7 +194,6 @@ header {
 
 /* main - what i do */
 .what_i_do {
-    border: 2px solid rebeccapurple;
     margin: 130px 230px;
     display: flex;
     flex-direction: column;
@@ -214,8 +213,86 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    border: 2px solid red;
     width: 909px;
 }
 
+.what_i_do_box_parent {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.what_i_do_box {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.what_i_do_box_title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.what_i_do_box_para {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 /* main - resume */
+.summary_of_resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 230px;
+}
+
+.summary_of_resume > h3 {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume_column {
+    display: flex;
+    gap: 70px;
+}
+
+.resume_column_title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.resume_top_text {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume_bottom_text {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume_pera {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.line_break {
+    color: #D1D1D1; 
+}
