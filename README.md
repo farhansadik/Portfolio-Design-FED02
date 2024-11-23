@@ -1,9 +1,15 @@
 # Portfolio Design 
 
-Original Design gathered from:
+**Original Design gathered from:**
 ```git
 git clone https://github.com/ProgrammingHero1/portfolio-resources.git
 ```
 
-Issue:
-1. Could not utilize the `js.PNG` image. Insted of that i've used another image. 
+**Goal:**
+- [x] Finish the portfolio design from figma.
+- [ ] Make it responsive for **smaller**, **medium** and **large** display.
+
+**Issue:**
+1. Could not utilize the `js.PNG` image. Instead of that I've used another image. 
+2. On the footer section. "Message" text could not in top-left. 
+3. Forgot to use button on the button section. Instead of button I've used `<div>`. 

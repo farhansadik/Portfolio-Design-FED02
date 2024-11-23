@@ -296,3 +296,72 @@ header {
 .line_break {
     color: #D1D1D1; 
 }
+
+/* footer section */
+footer {
+    background: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    gap: 70px;
+}
+
+.lets_connect {
+    width: 50%;
+}
+
+.footer_main_text {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.lets_connect > p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px
+}
+
+.lets_connect_images {
+    display: flex;
+    gap: 20px;
+}
+
+.lets_message {
+    /* not used */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input_type_a {
+    border-radius: 5px;
+    background: #FFF;
+    width: 461px;
+    height: 64px;
+    border: 0px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+}
+
+.input_type_b {
+    border-radius: 5px;
+    background: #FFF;
+    width: 461px;
+    height: 180px;
+    border: 0px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
