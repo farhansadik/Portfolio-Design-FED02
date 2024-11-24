@@ -11,5 +11,8 @@ git clone https://github.com/ProgrammingHero1/portfolio-resources.git
 
 **Issue:**
 1. Could not utilize the `js.PNG` image. Instead of that I've used another image. 
-2. On the footer section. "Message" text could not in top-left. 
-3. Forgot to use button on the button section. Instead of button I've used `<div>`. 
+2. On the footer section. "Message" text could not fit in top-left just like org figma file.
+3. Forgot to use `button` on the button section. But instead of button I've used `<div>`. 
+
+**Live View** <br>
+<https://learning-portfolio-design-fed02.netlify.app/>
